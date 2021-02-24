@@ -7,6 +7,7 @@
 
 using namespace std;
 
+//deck should have responsibiltiy
 class CardDeck
 {
 private:
@@ -69,7 +70,7 @@ public:
     int getFirstCard();
     string getID();
 };
-
+//player would have an account; try to extend a dealer from a player class
 class Player : public Dealer
 {
 private:
